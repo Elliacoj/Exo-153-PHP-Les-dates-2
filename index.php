@@ -63,7 +63,7 @@ echo $date . "<br><br>";
 # MEGA BONUS ( surligné et caractère gras :-)  ) : En fonction des choix, afficher un calendrier ( voir libs JS ou autres )
 
 
-echo '<SELECT name="d" Size="1">';
+echo '<form><SELECT name="d" Size="1">';
 
  for($d=1; $d<=12;$d++){
      if ($d < 10){
@@ -84,4 +84,4 @@ echo '<SELECT name="y" Size="1">';
      echo "<OPTION><br>$y<br></OPTION>";
  }
 
-echo "</SELECT>";
+echo "</SELECT></form>";
